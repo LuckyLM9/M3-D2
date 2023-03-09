@@ -1,0 +1,68 @@
+
+.flex-container{
+    display: flex;
+    background-color: rgb(255, 223, 126);
+}
+.flex-container > div{
+    width: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    border: solid;
+    border-width: 10px;
+    border-radius: 70px;
+    margin-left: 10px;
+    border-color: rgb(255, 223, 126);
+}
+div.card{
+    padding-left: 400px;
+    padding-top: 100px;
+    line-height: 1px;
+    text-align: justify;
+    
+}
+h5.card-title{
+    color: rgb(142, 73, 33);
+}
+p.card-text{
+    color:rgb(92, 50, 19);
+}
+p button{
+    margin-left: 120px;
+    border-radius: 70px;
+    border-width: 10px;
+    border-color: rgb(255, 223, 126);
+    background-color: rgb(255, 223, 126);
+}
+div.card img{
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    height: 250px;
+    width: 300px;
+    image-rendering: auto;
+}
+.title-article{
+    
+    padding-left: 20px;
+}
+p.card-height{
+    margin-left: 220px;
+}
+.img2 {
+       float: left;
+       text-align: justify;
+       margin-left: 10px;
+       margin-bottom: 50px;
+      }
+/* For desktop: */
+.flex-container {width: 100%;}
+.img-article {width: 100%;}
+.card {width: 100%;}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="flex-container"] {
+    width: 100%;
+  }
+}
